@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>The brushing ball manufacturing &#8212; project untitled  ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/nature.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">project untitled  ドキュメント</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">The brushing ball manufacturing</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="the-brushing-ball-manufacturing">
+<span id="john-san-eng-241104"></span><h1>The brushing ball manufacturing<a class="headerlink" href="#the-brushing-ball-manufacturing" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>{241104}, {241109}</p>
+<section id="purpose-and-objectives">
+<h2>### Purpose and Objectives<a class="headerlink" href="#purpose-and-objectives" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Attach N brushes around the circumference of the ball.</p></li>
+<li><p>Produce as many as possible in the shortest amount of time.</p></li>
+<li><p>Develop a method (production process) that allows completing the task of attaching brushes around the ball’s circumference in <strong>5 minutes</strong>, or ideally, <strong>3 minutes</strong>.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="approach">
+<h2>### Approach<a class="headerlink" href="#approach" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p>Attach N brushes around the ball’s circumference. To do this, rotate the ball slightly (fixed small angle) each time, and insert and fix a brush each time.</p>
+<blockquote>
+<div><p>N steps of rotation (360 degrees / N) will be made with this automatic machine.</p>
+</div></blockquote>
+</li>
+<li><p>There are three types of tasks involved in the process of attaching the brushes:
+#. Drill a small hole (into which the brush’s rod will be inserted)
+#. Inject adhesive into the small hole
+#. Set a tow ended brush rod and pressing it into small hole and place using a push rod machine.</p>
+<a class="reference internal image-reference" href="_images/IMG_241105_2089M.jpeg"><img alt="_images/IMG_241105_2089M.jpeg" class="align-right" src="_images/IMG_241105_2089M.jpeg" style="width: 297.0px; height: 384.0px;" /></a>
+</li>
+<li><p>Develop a process that allows the entire circumference of the ball to be completed <strong>with just one full rotation</strong>.
+This will speed up the installation on each circumference.</p>
+<ul class="simple">
+<li><p>Switch between the three tasks by rotating the ball in steps of 3 angles.</p></li>
+<li><p>The system will be driven by a stepping motor, but it’s essential to confirm first that the task can be successfully completed manually before automating.</p></li>
+</ul>
+</li>
+<li><p>If the rotation reaches the final brush installation, <strong>tilt the jig (machine tools of three kinds) backward</strong> after inserting a brush, two open holes are still left(the number N-2) <span id="id1">[note]</span>. Here it is ensuring that the already attached brush axes do not interfere (i.e., the rotation should not stop due to obstruction).</p></li>
+</ul>
+</div></blockquote>
+<p>_[note] Two holes are left to do drilling, and adhesive insertion),</p>
+</section>
+<section id="precautions-to-order-for-automating-macjine">
+<h2>### Precautions to order for automating macjine<a class="headerlink" href="#precautions-to-order-for-automating-macjine" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>(Things to consider when ordering a machine)</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/IMG_241105_2090M.jpeg"><img alt="_images/IMG_241105_2090M.jpeg" class="align-right" src="_images/IMG_241105_2090M.jpeg" style="width: 297.0px; height: 384.0px;" /></a>
+<ol class="arabic simple">
+<li><p>Ensure that there is no wobbling or misalignment of the ball and rotation axis, so that when inserting a rod into the ball, it is securely fixed in place.</p></li>
+<li><p>The axis must rotate precisely with the stepping motor, completing exactly N steps to complete one full rotation (360 degrees) and return to its starting position.</p></li>
+<li><p>Ensure that the positions of the drilled holes are consistently accurate across all N steps of rotation (360 degrees / N), and improve the precision of the rotation axis (suggest using a stepping motor).</p></li>
+<li><p>The drilling tool and adhesive insertion must be equipped with a mechanism to tilt the jig backward. However, ensure that the sliding surface is firm and heavy enough to prevent any misalignment when returning to the starting position.</p></li>
+</ol>
+</div></blockquote>
+<hr class="docutils" />
+<p>Let me know if you need further clarification!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">目次</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">The brushing ball manufacturing</a><ul>
+<li><a class="reference internal" href="#purpose-and-objectives">### Purpose and Objectives</a></li>
+<li><a class="reference internal" href="#approach">### Approach</a></li>
+<li><a class="reference internal" href="#precautions-to-order-for-automating-macjine">### Precautions to order for automating macjine</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>このページ</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/natsume-john-san_eng_241104.rst.txt"
+            rel="nofollow">ソースコードを表示</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">project untitled  ドキュメント</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">The brushing ball manufacturing</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023, MSLab inc. 熔融塩技研(株).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.5.0.
+    </div>
+  </body>
+</html>
