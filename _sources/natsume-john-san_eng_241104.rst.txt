@@ -7,7 +7,7 @@ The brushing ball manufacturing
 
 {241104}, {241109}
 
-### Purpose and Objectives
+Purpose and Objectives
 -----------------------------
 
    * Attach N brushes around the circumference of the ball.
@@ -16,7 +16,7 @@ The brushing ball manufacturing
 
    * Develop a method (production process) that allows completing the task of attaching brushes around the ball’s circumference in **5 minutes**, or ideally, **3 minutes**.
 
-### Approach
+Approach
 -----------------
 
    * Attach N brushes around the ball’s circumference. To do this, rotate the ball slightly (fixed small angle) each time, and insert and fix a brush each time.
